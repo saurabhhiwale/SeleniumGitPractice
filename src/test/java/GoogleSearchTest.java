@@ -29,7 +29,7 @@ public class GoogleSearchTest {
 
         Assert.assertTrue(
                 driver.getTitle().contains("Selenium"),
-                "Search result title does not contain Selenium"
+                "Google search result title does not contain Selenium"
         );
     }
 
